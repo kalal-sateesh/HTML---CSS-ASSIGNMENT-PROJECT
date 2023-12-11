@@ -105,10 +105,16 @@ nav {
   overflow: hidden;
   padding: 15px;
   box-sizing: border-box;
+  box-shadow: 5px 5px rgb(108, 200, 216);
+}
+.card1:hover {
+  transition: transform 1s;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .card1 img {
   width: 100%;
-  height: 35vh;
+  height: 210px;
   border-top-right-radius: 50px;
 }
 .card2 {
@@ -120,10 +126,16 @@ nav {
   overflow: hidden;
   padding: 15px;
   box-sizing: border-box;
+  box-shadow: 5px 5px rgb(108, 200, 216);
+}
+.card2:hover {
+  transition: transform 1s;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .card2 img {
   width: 100%;
-  height: 35vh;
+  height: 210px;
   border-top-right-radius: 50px;
 }
 .card3 {
@@ -135,10 +147,16 @@ nav {
   overflow: hidden;
   padding: 15px;
   box-sizing: border-box;
+  box-shadow: 5px 5px rgb(108, 200, 216);
+}
+.card3:hover {
+  transition: transform 1s;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .card3 img {
   width: 100%;
-  height: 35vh;
+  height: 210px;
   border-top-right-radius: 50px;
 }
 
@@ -159,7 +177,7 @@ button {
 .Order {
   text-align: center;
 }
-.Order button:hover{
+.Order button:hover {
   background-color: chocolate;
   cursor: pointer;
 }
@@ -180,8 +198,8 @@ button {
 
 .text {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 15px;
+  font-family: sans-serif;
+  padding: 5px;
   box-sizing: content-box;
 }
 a div:hover {
@@ -239,20 +257,25 @@ input[type="checkbox"] {
   }
 }
 
+@media screen and (max-width: 150px) {
+  .banner {
+    width: 100%;
+    height: 50vh;
+  }
+  .Lorem {
+    width: 95%;
+    height: 20vh;
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+    padding: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-height: 653px) {
-  @media screen and (max-width: 280px) {
-    .card1 img {
-      width: 100%;
-      height: 23vh;
-    }
-    .card2 img {
-      width: 100%;
-      height: 23vh;
-    }
-    .card3 img {
-      width: 100%;
-      height: 23vh;
-    }
+  @media screen and (max-width: 150px) {
     .banner {
       width: 100%;
       height: 60vh;
@@ -274,18 +297,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 281px) {
     @media screen and (max-height: 740px) {
       @media screen and (max-width: 376px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 60vh;
@@ -309,18 +320,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 377px) {
     @media screen and (max-height: 896px) {
       @media screen and (max-width: 415px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 50vh;
@@ -344,18 +343,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 416px) {
     @media screen and (max-height: 933px) {
       @media screen and (max-width: 430px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 45vh;
@@ -379,18 +366,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 377px) {
     @media screen and (max-height: 916px) {
       @media screen and (max-width: 413px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 45vh;
@@ -414,18 +389,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 377px) {
     @media screen and (max-height: 916px) {
       @media screen and (max-width: 413px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 45vh;
@@ -449,18 +412,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 377px) {
     @media screen and (max-height: 720px) {
       @media screen and (max-width: 540px) {
-        .card1 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 23vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 23vh;
-        }
         .banner {
           width: 100%;
           height: 45vh;
@@ -484,18 +435,6 @@ input[type="checkbox"] {
   @media screen and (min-width: 431px) {
     @media screen and (max-height: 1369px) {
       @media screen and (max-width: 1025px) {
-        .card1 img {
-          width: 100%;
-          height: 21vh;
-        }
-        .card2 img {
-          width: 100%;
-          height: 21vh;
-        }
-        .card3 img {
-          width: 100%;
-          height: 21vh;
-        }
         .banner {
           width: 100%;
           height: 45vh;
